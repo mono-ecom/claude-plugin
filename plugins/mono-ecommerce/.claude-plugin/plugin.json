@@ -6,5 +6,12 @@
     "name": "mono e-commerce"
   },
   "license": "LicenseRef-Proprietary",
-  "keywords": ["mono", "market", "bazar", "маркет", "базар"]
+  "privacyPolicyUrl": "https://monomarket.ua/privacy-policy",
+  "keywords": [
+    "mono",
+    "market",
+    "bazar",
+    "маркет",
+    "базар"
+  ]
 }
