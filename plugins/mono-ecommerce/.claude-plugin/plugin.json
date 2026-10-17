@@ -1,0 +1,10 @@
+{
+  "name": "mono-ecommerce",
+  "version": "0.1.0",
+  "description": "mono e-commerce in Claude: shop on Market (Маркет), run your Bazar (Базар) advertisements.",
+  "author": {
+    "name": "mono e-commerce"
+  },
+  "license": "LicenseRef-Proprietary",
+  "keywords": ["mono", "market", "bazar", "маркет", "базар"]
+}

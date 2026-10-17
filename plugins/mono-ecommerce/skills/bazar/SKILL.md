@@ -5,7 +5,7 @@ description: A seller's Bazar (Базар) advertisements (оголошення)
 
 # Bazar (Базар)
 
-If no `bazar__*` tool is available, tell the user to connect `monobank` in the plugin's Connectors tab and
+If no `bazar__*` tool is available, tell the user to connect `mono-ecommerce` in the plugin's Connectors tab and
 confirm the sign-in in the monobank app.
 
 - **Overview:** `bazar__list_my_advertisements`. Lead with what needs the seller's action, summarise the rest.

@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "monobank": {
+    "mono-ecommerce": {
       "type": "http",
       "url": "https://ai.monoecom.tech/mcp"
     }

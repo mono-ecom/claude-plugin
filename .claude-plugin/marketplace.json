@@ -1,16 +1,16 @@
 {
-  "name": "monobank-ecom",
+  "name": "mono-ecommerce",
   "owner": {
-    "name": "monobank ecom"
+    "name": "mono e-commerce"
   },
   "metadata": {
-    "description": "Claude plugins for monobank marketplaces"
+    "description": "mono e-commerce plugins for Claude"
   },
   "plugins": [
     {
-      "name": "monobank-marketplaces",
-      "source": "./plugins/monobank-marketplaces",
-      "description": "Market (Маркет) for buyers and Bazar (Базар) for ФОП sellers: the connector plus how to use it well"
+      "name": "mono-ecommerce",
+      "source": "./plugins/mono-ecommerce",
+      "description": "Market (Маркет) and Bazar (Базар) in Claude"
     }
   ]
 }

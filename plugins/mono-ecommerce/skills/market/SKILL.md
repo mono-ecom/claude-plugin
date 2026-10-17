@@ -1,11 +1,11 @@
 ---
 name: market
-description: Shopping on Market (Маркет), monobank's marketplace — finding and comparing products, the cart (кошик), checkout in the monobank app, orders (замовлення) and delivery. Use when the user wants to buy, compare goods, check their cart or an order — "знайди навушники до 3000", "поклади в кошик", "оформи замовлення", "де моє замовлення".
+description: Shopping on Market (Маркет) — finding and comparing products, the cart (кошик), checkout in the monobank app, orders (замовлення) and delivery. Use when the user wants to buy, compare goods, check their cart or an order — "знайди навушники до 3000", "поклади в кошик", "оформи замовлення", "де моє замовлення".
 ---
 
 # Market (Маркет)
 
-If no `market__*` tool is available, tell the user to connect `monobank` in the plugin's Connectors tab and
+If no `market__*` tool is available, tell the user to connect `mono-ecommerce` in the plugin's Connectors tab and
 confirm the sign-in in the monobank app.
 
 1. **Find:** `market__search_products`, narrow with filter codes from the previous answer only.

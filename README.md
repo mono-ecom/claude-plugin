@@ -1,4 +1,4 @@
-# monobank marketplaces
+# mono e-commerce
 
-Claude plugin for monobank's marketplaces: shop on Market (Маркет), run your Bazar (Базар) advertisements.
-See [plugins/monobank-marketplaces](plugins/monobank-marketplaces).
+Claude plugin: shop on Market (Маркет), run your Bazar (Базар) advertisements.
+See [plugins/mono-ecommerce](plugins/mono-ecommerce).
