@@ -5,5 +5,13 @@
   "author": {
     "name": "monobank ecom"
   },
-  "keywords": ["monobank", "market", "bazar", "маркет", "базар", "marketplace"]
+  "keywords": [
+    "monobank",
+    "market",
+    "bazar",
+    "маркет",
+    "базар",
+    "marketplace"
+  ],
+  "license": "LicenseRef-Proprietary"
 }
