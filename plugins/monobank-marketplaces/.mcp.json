@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "monobank": {
+      "type": "http",
+      "url": "https://ai.monoecom.tech/mcp"
+    }
+  }
+}
