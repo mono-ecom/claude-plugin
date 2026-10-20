@@ -3,7 +3,8 @@
   "version": "0.1.0",
   "description": "mono e-commerce у Claude: покупки на Маркеті та оголошення на Базарі.",
   "author": {
-    "name": "mono e-commerce"
+    "name": "mono e-commerce",
+    "email": "murcode11@gmail.com"
   },
   "license": "LicenseRef-Proprietary",
   "privacyPolicyUrl": "https://monomarket.ua/privacy-policy",

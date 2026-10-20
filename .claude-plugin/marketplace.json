@@ -1,7 +1,8 @@
 {
   "name": "mono-ecommerce",
   "owner": {
-    "name": "mono e-commerce"
+    "name": "mono e-commerce",
+    "email": "murcode11@gmail.com"
   },
   "metadata": {
     "description": "Плагіни mono e-commerce для Claude"
