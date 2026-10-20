@@ -4,13 +4,13 @@
     "name": "mono e-commerce"
   },
   "metadata": {
-    "description": "mono e-commerce plugins for Claude"
+    "description": "Плагіни mono e-commerce для Claude"
   },
   "plugins": [
     {
       "name": "mono-ecommerce",
       "source": "./plugins/mono-ecommerce",
-      "description": "Market (Маркет) and Bazar (Базар) in Claude"
+      "description": "Маркет і Базар у Claude"
     }
   ]
 }

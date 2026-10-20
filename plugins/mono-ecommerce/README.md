@@ -1,11 +1,10 @@
 # mono e-commerce
 
-Use mono e-commerce from Claude.
+Маркет і Базар від monobank — прямо в Claude.
 
-- **Market (Маркет)** — find and compare products, fill your cart, check out in the monobank app, track orders.
-- **Bazar (Базар)** — for sellers: see what is happening with your advertisements, change price, title or
-  description, add photos, create new ones.
+- **Маркет** — знайти й порівняти товари, зібрати кошик, оплатити в застосунку monobank, стежити за замовленнями.
+- **Базар** — для продавців: що відбувається з оголошеннями, зміна ціни, назви чи опису, фото, нові оголошення.
 
-Install the plugin, then press **Connect** next to `mono-ecommerce` and confirm the sign-in in the monobank app.
+Встановіть плагін, натисніть **Connect** біля `mono-ecommerce` і підтвердіть вхід у застосунку monobank.
 
-To upload photos, add `ai.monoecom.tech` to the allowed domains in Settings → Capabilities.
+Щоб завантажувати фото, додайте `ai.monoecom.tech` до дозволених доменів у Settings → Capabilities.

@@ -1,7 +1,7 @@
 {
   "name": "mono-ecommerce",
   "version": "0.1.0",
-  "description": "mono e-commerce in Claude: shop on Market (Маркет), run your Bazar (Базар) advertisements.",
+  "description": "mono e-commerce у Claude: покупки на Маркеті та оголошення на Базарі.",
   "author": {
     "name": "mono e-commerce"
   },

@@ -1,18 +1,18 @@
 ---
 name: market
-description: Shopping on Market (Маркет) — finding and comparing products, the cart (кошик), checkout in the monobank app, orders (замовлення) and delivery. Use when the user wants to buy, compare goods, check their cart or an order — "знайди навушники до 3000", "поклади в кошик", "оформи замовлення", "де моє замовлення".
+description: Покупки на Маркеті (Market) — пошук і порівняння товарів, кошик, оплата в застосунку monobank, замовлення й доставка. Використовуй, коли користувач хоче щось купити, порівняти товари, подивитися кошик чи замовлення — «знайди навушники до 3000», «поклади в кошик», «оформи замовлення», «де моє замовлення».
 ---
 
-# Market (Маркет)
+# Маркет
 
-If no `market__*` tool is available, tell the user to connect `mono-ecommerce` in the plugin's Connectors tab and
-confirm the sign-in in the monobank app.
+Якщо тулів `market__*` немає, попроси користувача підключити `mono-ecommerce` на вкладці Connectors плагіна і
+підтвердити вхід у застосунку monobank.
 
-1. **Find:** `market__search_products`, narrow with filter codes from the previous answer only.
-2. **Compare:** `market__get_product` for every product you recommend. Offer 2–4 options with price, seller and why.
-3. **Cart:** confirm product, seller and quantity, then `market__add_to_cart` with an `offerId`, never a `productId`.
-4. **Pay:** `market__create_checkout_link`, show the link — payment happens only in the monobank app. Never ask for
-   card details and never say an order was placed.
-5. **Orders:** `market__list_my_orders`, `market__get_order`. Cancellation and returns — through `orderUrl` in the app.
+1. **Знайти:** `market__search_products`; звужуй лише кодами фільтрів із попередньої відповіді.
+2. **Порівняти:** `market__get_product` для кожного товару, який радиш. Дай 2–4 варіанти: ціна, продавець, чому.
+3. **Кошик:** підтвердь товар, продавця й кількість, тоді `market__add_to_cart` з `offerId`, ніколи не `productId`.
+4. **Оплата:** `market__create_checkout_link`, покажи посилання — оплата лише в застосунку monobank. Ніколи не
+   питай дані картки й не кажи, що замовлення оформлене.
+5. **Замовлення:** `market__list_my_orders`, `market__get_order`. Скасування й повернення — через `orderUrl` у застосунку.
 
-Get an explicit yes before `market__clear_cart`. Reuse the same `idempotencyKey` when retrying one intent.
+Перед `market__clear_cart` отримай явне «так». Повторюючи ту саму дію, передавай той самий `idempotencyKey`.
