@@ -7,4 +7,4 @@
 
 Встановіть плагін, натисніть **Connect** біля `mono-ecommerce` і підтвердіть вхід у застосунку monobank.
 
-Щоб завантажувати фото, додайте `ai.monoecom.tech` до дозволених доменів у Settings → Capabilities.
+Щоб завантажувати фото на Базар, додайте `ai.monoecom.tech` до дозволених доменів у Settings → Capabilities.
